@@ -120,7 +120,7 @@ function set500Donuts() {
     let donutsWon = 0;
 
     while (donutsWon < 500) {
-        let value = Math.random() * 500;
+        let value = Math.random() * 100;
 
         if (province == "BC") {
             if (value > 80 && value < 90) {
